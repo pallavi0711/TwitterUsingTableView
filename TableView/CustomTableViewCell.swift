@@ -12,7 +12,6 @@ class CustomTableViewCell: UITableViewCell {
 
     @IBOutlet weak var profile_image: UIImageView!
    
-    @IBOutlet weak var refreshLabel: UILabel!
     @IBOutlet weak var Description: UILabel!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var date: UILabel!

@@ -66,23 +66,11 @@
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baH-rL-trq">
-                                                    <rect key="frame" x="362" y="5" width="8" height="21"/>
-                                                    <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="21" id="7Lx-Xa-3JT"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                    <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="baH-rL-trq" secondAttribute="trailing" constant="5" id="0BN-kX-kLn"/>
                                                 <constraint firstItem="NM9-U7-j2O" firstAttribute="top" secondItem="agb-U3-kr5" secondAttribute="bottom" id="2GL-xT-COF"/>
                                                 <constraint firstItem="NM9-U7-j2O" firstAttribute="leading" secondItem="TqK-M6-wkr" secondAttribute="trailing" constant="10" id="55i-0b-idk"/>
                                                 <constraint firstAttribute="bottom" secondItem="rcI-r0-41O" secondAttribute="bottom" constant="18" id="9aG-XI-ywJ"/>
-                                                <constraint firstItem="baH-rL-trq" firstAttribute="top" secondItem="Uxp-8x-6YI" secondAttribute="top" constant="5" id="EgE-ou-LBS"/>
                                                 <constraint firstItem="rcI-r0-41O" firstAttribute="top" secondItem="TqK-M6-wkr" secondAttribute="bottom" constant="5" id="IWs-dZ-L8Q"/>
                                                 <constraint firstAttribute="trailing" secondItem="agb-U3-kr5" secondAttribute="trailing" constant="20" id="NhD-sd-3FE"/>
                                                 <constraint firstItem="TqK-M6-wkr" firstAttribute="top" secondItem="Uxp-8x-6YI" secondAttribute="top" constant="5" id="ZU6-e1-fOw"/>
@@ -97,7 +85,6 @@
                                             <outlet property="Description" destination="NM9-U7-j2O" id="fXD-3G-X4B"/>
                                             <outlet property="date" destination="rcI-r0-41O" id="P2g-aQ-MAb"/>
                                             <outlet property="profile_image" destination="TqK-M6-wkr" id="ZE9-dv-kCn"/>
-                                            <outlet property="refreshLabel" destination="baH-rL-trq" id="XcE-Bk-0ho"/>
                                             <outlet property="title" destination="agb-U3-kr5" id="rWk-cI-HYq"/>
                                         </connections>
                                     </tableViewCell>
