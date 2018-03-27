@@ -9,7 +9,7 @@
 import Foundation
 
 struct UserData{
-    
+
     let name:String
     let description:String
     let date:String
